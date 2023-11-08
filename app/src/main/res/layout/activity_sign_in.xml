@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SignInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center">
+
+        </ImageView>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="100sp"
+            android:layout_height="25sp"
+            android:hint="@string/email"
+            android:textSize="12sp"
+            android:textColorHint="@color/aquamarine"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="5sp"
+            android:paddingLeft="5sp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="100sp"
+            android:layout_height="25sp"
+            android:hint="@string/pass"
+            android:textSize="12sp"
+            android:textColorHint="@color/aquamarine"
+            android:background="@drawable/edittext"
+            android:layout_marginTop="5sp"
+            android:paddingLeft="5sp">
+
+        </EditText>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5sp"
+            android:onClick="Enter"
+            android:background="@drawable/bt_shape"
+            android:text="@string/signi"
+            android:textAllCaps="false"
+            android:textSize="10sp"
+            android:layout_gravity="center">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

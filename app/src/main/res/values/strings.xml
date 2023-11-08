@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">prakt23</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">From the Square world,\nHello, %1$s!</string>
+    <string name="tile_label">Example tile</string>
+    <string name="title_activity_presentation._main">presentation.MainActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="complication_label">Example complication</string>
+    <string name="title_activity_presentation._sign_in">presentation.SignInActivity</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_presentation._result">presentation.ResultActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="go">Go to \n WorldSkills 2019</string>
+    <string name="steps">10.000 steps</string>
+    <string name="desc">Description</string>
+    <string name="weartext">Как бы Google ни позиционировала Wear OS, платформа основана на Android со всеми его особенностями, прелестями и недостатками. Поэтому, если вы уже знакомы с Android-разработкой, то сложностей с Wear OS возникнуть не должно. Wear OS почти не отличается от своего «старшего брата», за исключением отсутствия некоторых пакетов</string>
+    <string name="send">Send result</string>
+    <string name="signin">Sign In</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="signi">Sign In</string>
+</resources>
